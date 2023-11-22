@@ -1,4 +1,4 @@
-FROM python:3.12.0a5-slim
+FROM python:slim-bookworm
 
 ENV FLASK_APP=flaskr
 ENV FLASK_ENV=development
